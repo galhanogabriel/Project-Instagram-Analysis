@@ -1,15 +1,15 @@
-# Dicionário de dados
+# Data Dictionary
 
-Dicionário de dados:
+Data Dictionary:
 
-| Nome da coluna | Descrição                     | Tipo de dado |
-|----------------|-------------------------------|--------------|
-| `Tipo`         | Formato de postagem           | Object       |
-| `Data`         | Data da publicação            | Datetime     |
-| `Curtidas`     | Quantidade de curtidas        | Int64        |
-| `Comentários`  | Quantidade de comentários     | Int64        |
-| `Tags`         | Temas das publicações         | Object       |
-| `Pessoas`      | Se há articipação ou não      | Object       |
-| `Campanhas`    | Foi uma campanha ou não       | Object       |
-| `Carrossel`    | Foi um carrossel ou não       | Object       |
-| `Interacoes`   | Quantas pessoas interagiram   | Int64        |
+| Column name    | Description            | Data Type |
+|----------------|------------------------|-----------|
+| `Type`         | Post Formats           | Object    |
+| `Date`         | Publication Date       | Datetime  |
+| `Likes`        | Number of likes        | Int64     |
+| `Comments`     | Number of comments     | Int64     |
+| `Tags`         | Publication tags       | Object    |
+| `People`       | People included        | Object    |
+| `Campaign`     | Use of campaign        | Object    |
+| `Carousel`     | Use of carousel        | Object    |
+| `Interactions` | Number of interactions | Int64     |
