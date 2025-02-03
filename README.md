@@ -1,46 +1,48 @@
-# Análise de engajamento de uma empresa fictícia no instagram
+# Instagram Engagement Analysis
 
-Insira aqui contexto sobre o projeto
+This project analyzes a dataset related to the engagement of posts on the Instagram account of a fictional company. The goal is to identify the factors that most influence engagement, with a focus on the tags used.
 
-## Organização do projeto
+The dataset covers the period from the account's creation until March 27th and includes metrics such as likes, comments, and interactions. Views were disregarded, as the focus of the analysis is on direct engagement metrics. This project concentrates on data preparation and exploratory analysis to generate insights into the performance of the posts.
+
+## Project Structure
 
 ```
-├── .gitignore         <- Arquivos e diretórios a serem ignorados pelo Git
-├── ambiente.yml       <- O arquivo de requisitos para reproduzir o ambiente de análise.
-├── LICENSE            <- Licença de código aberto (MIT).
-├── README.md          <- README principal para desenvolvedores que usam este projeto.
+├── .gitignore         # Files and directories ignored by Git
+├── environment.yml    # Dependencies required to reproduce the analysis environment
+├── LICENSE            # Open-source license (MIT)
+├── README.md          # Main README for developers using this project
 |
-├── dados              <- Arquivos de dados para o projeto.
+├── data/              # Dataset files (not included in the repository)
 |
-├── notebooks          <- Cadernos Jupyter.
+├── notebooks/         # Jupyter Notebooks with analysis
 │
-|   └──src             <- Código-fonte para uso neste projeto.
+|   └── src/           # Source code for this project
 |      │
-|      ├── __init__.py  <- Torna um módulo Python
-|      ├── config.py    <- Configurações básicas do projeto
+|      ├── __init__.py  # Makes it a Python module
+|      ├── config.py    # Basic project configurations
 |
-├── referencias        <- Dicionários de dados.
+├── references/        # Data dictionary
 ```
 
-## Configuração do ambiente
+## Setting Up the Environment
 
-1. Faça o clone do repositório que será criado a partir deste modelo.
+1. Clone the repository:
 
     ```bash
-    git clone ENDERECO_DO_REPOSITORIO
+    git clone https://github.com/your-username/your-repo.git
     ```
 
-2. Crie um ambiente virtual para o seu projeto utilizando o gerenciador de ambientes de sua preferência.
+2. Create a virtual environment:
 
   ```bash
-  conda env export > ambiente.yml
+  conda env export > environment.yml
   ```
 
-## Um pouco mais sobre a base
+## More About the Dataset
 
-[Clique aqui](references/01_data_dictionary.md) para ver o dicionário de dados.
+[Click here](references/01_data_dictionary.md) to see the data dictionary.
 
-## Resumo dos principais resultados
+## Key Insights
 
 Using people in posts is essential for good engagement.
 
